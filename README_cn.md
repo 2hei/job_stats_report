@@ -75,7 +75,7 @@ job_stats_report/
 
 ```python
 llm = ChatOllama(
-    model="qwen2.5:8b",  # 可替换为其他模型
+    model="qwen2.5:7b",  # 可替换为其他模型
     base_url="http://localhost:11434",
     temperature=0.7
 )
