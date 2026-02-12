@@ -75,7 +75,7 @@ Modify the model configuration in `config.py`:
 
 ```python
 llm = ChatOllama(
-    model="qwen2.5:8b",  # Can be replaced with other models
+    model="qwen2.5:7b",  # Can be replaced with other models
     base_url="http://localhost:11434",
     temperature=0.7
 )
